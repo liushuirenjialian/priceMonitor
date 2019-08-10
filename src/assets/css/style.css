@@ -1,0 +1,164 @@
+
+/*
+element-ui  菜单   Start
+*/
+.el-menu-item, .el-submenu__title {
+    height: 40px;
+    line-height: 40px;
+}
+.el-submenu__title:hover{
+    background: gradient(linear,left top, left bottom,from(transparent),to(transparent)) !important;
+    background: linear-gradient(to bottom,transparent,transparent) !important;
+    background-color: #006BD5 !important;
+    color: #fff !important;
+}
+.el-menu-item:hover {
+    background: gradient(linear,left top, left bottom,from(transparent),to(transparent)) !important;
+    background: linear-gradient(to bottom,transparent,transparent) !important;
+    background-color: #006BD5 !important;
+    color: #fff !important;
+
+}
+.el-menu-item.is-active{
+    background: gradient(linear,left top, left bottom,from(transparent),to(transparent)) !important;
+    background: linear-gradient(to bottom,transparent,transparent) !important;
+    background-color: #006BD5 !important;
+}
+.el-menu--inline a>li>span {
+    margin-left: 15px;
+}
+/*
+element-ui  菜单   End
+*/
+
+/*
+element-ui 面包屑 Start
+*/
+.el-breadcrumb__inner , .el-breadcrumb__separator {
+    color: #fff !important;
+}
+
+.content-main {
+    height: 500px;
+    overflow-y: auto;
+    margin:10px;
+    border: 1px solid rgb(244, 245, 248);
+    padding: 10px;
+}
+.el-pagination {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.el-table {
+    text-align: center;
+}
+body .el-table th.gutter{
+    display: table-cell!important;
+}
+/*
+element-ui 面包屑 End
+*/
+
+
+/*
+  element-ui table表格 Start
+*/
+
+
+.el-dialog .el-dialog__header {
+    background: #2684ED;
+    padding-top: 10px;
+}
+
+.el-dialog .el-dialog__title {
+    color: #fff;
+
+}
+
+.el-dialog .el-dialog__headerbtn {
+    top: 10px;
+}
+
+.el-dialog .el-dialog__headerbtn .el-dialog__close {
+    color: #fff;
+
+}
+
+
+.el-dialog .el-dialog__footer {
+    text-align: center;
+}
+a:hover {
+    text-decoraction: none;
+}
+/*
+  element-ui table表格 End
+*/
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #EBEEF5;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #EBEEF5;
+    width: 100px;
+    text-align: center;
+
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #EBEEF5;
+    width: 100px;
+    text-align: center;
+
+}
+table.gridtable th:nth-child(2),table.gridtable td:nth-child(2){
+    width: 200px;
+}
+
+
+table.transferTable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #EBEEF5;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.transferTable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #EBEEF5;
+    text-align: center;
+    font-size: 15px;
+
+}
+table.transferTable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #EBEEF5;
+    text-align: center;
+    font-size: 13px;
+}
+.ellipsisClass {
+    width: 90%;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+
+}
